@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/sholatFragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Sholat" />
+
+    <item
+        android:id="@+id/zakatFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Zakat" />
+
+    <item
+        android:id="@+id/puasaFragment"
+        android:title="Puasa"
+        android:icon="@color/cardview_dark_background"/>
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/puasaFragment"
+        android:name="com.athzaq.apkislamilomba.ui.PuasaFragment"
+        android:label="Puasa"
+        tools:layout="@layout/fragment_puasa" />
+    <fragment
+        android:id="@+id/sholatFragment"
+        android:name="com.athzaq.apkislamilomba.ui.SholatFragment"
+        android:label="Sholat"
+        tools:layout="@layout/fragment_sholat" />
+    <fragment
+        android:id="@+id/zakatFragment"
+        android:name="com.athzaq.apkislamilomba.ui.ZakatFragment"
+        android:label="Zakat"
+        tools:layout="@layout/fragment_zakat" >
+        <action
+            android:id="@+id/action_zakatFragment_to_detailZakatBinatangTernakFragment"
+            app:destination="@id/detailZakatBinatangTernakFragment" />
+        <action
+            android:id="@+id/action_zakatFragment_to_detailZakatEmasPerakFragment"
+            app:destination="@id/detailZakatEmasPerakFragment" />
+        <action
+            android:id="@+id/action_zakatFragment_to_detailZakatFitrahFragment"
+            app:destination="@id/detailZakatFitrahFragment" />
+        <action
+            android:id="@+id/action_zakatFragment_to_detailZakatMaalFragment"
+            app:destination="@id/detailZakatMaalFragment" />
+        <action
+            android:id="@+id/action_zakatFragment_to_detailZakatPerdaganganFragment"
+            app:destination="@id/detailZakatPerdaganganFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.athzaq.apkislamilomba.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/detailZakatBinatangTernakFragment"
+        android:name="com.athzaq.apkislamilomba.detailzakat.DetailZakatBinatangTernakFragment"
+        android:label="fragment_detail_zakat_binatang_ternak"
+        tools:layout="@layout/fragment_detail_zakat_binatang_ternak" />
+    <fragment
+        android:id="@+id/detailZakatEmasPerakFragment"
+        android:name="com.athzaq.apkislamilomba.detailzakat.DetailZakatEmasPerakFragment"
+        android:label="fragment_detail_zakat_emas_perak"
+        tools:layout="@layout/fragment_detail_zakat_emas_perak" />
+    <fragment
+        android:id="@+id/detailZakatFitrahFragment"
+        android:name="com.athzaq.apkislamilomba.detailzakat.DetailZakatFitrahFragment"
+        android:label="fragment_detail_zakat_fitrah"
+        tools:layout="@layout/fragment_detail_zakat_fitrah" />
+    <fragment
+        android:id="@+id/detailZakatMaalFragment"
+        android:name="com.athzaq.apkislamilomba.detailzakat.DetailZakatMaalFragment"
+        android:label="fragment_detail_zakat_maal"
+        tools:layout="@layout/fragment_detail_zakat_maal" />
+    <fragment
+        android:id="@+id/detailZakatPerdaganganFragment"
+        android:name="com.athzaq.apkislamilomba.detailzakat.DetailZakatPerdaganganFragment"
+        android:label="fragment_detail_zakat_perdagangan"
+        tools:layout="@layout/fragment_detail_zakat_perdagangan" />
+
+</navigation>

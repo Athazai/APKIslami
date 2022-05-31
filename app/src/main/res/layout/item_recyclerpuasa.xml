@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/white"
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_judulpuasa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Puasa Ramadhan"
+            android:gravity="center"
+            android:textColor="@color/lumayanitem"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_keutamaanpuasa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="“Tidak ada puasa yang lebih afdal dari puasa Daud. Puasa Daud berarti sudah berpuasa separuh tahun karena sehari berpuasa dan sehari tidak berpuasa.”  HR Bukhari dan Muslim)."
+            android:textColor="@color/lumayanitem"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/txt_judulpuasa"
+            app:layout_constraintStart_toStartOf="@+id/txt_judulpuasa"
+            app:layout_constraintTop_toBottomOf="@+id/txt_judulpuasa" />
+
+        <TextView
+            android:id="@+id/txt_hukumpuasa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Wajib"
+            android:gravity="center"
+            android:textColor="@color/lumayanitem"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txt_keutamaanpuasa"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_keutamaanpuasa"
+            app:layout_constraintTop_toBottomOf="@+id/txt_keutamaanpuasa" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

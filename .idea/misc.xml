@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/drawable/gradient_endcolor.xml" value="0.290625" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/drawable/gradient_startcolor.xml" value="0.290625" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_detail_puasa_fardhu.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_detail_sholat_sunnah.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_puasa_fardhu.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_puasa_sunnah.xml" value="0.25" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_quran.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_ashar.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_isya.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_maghrib.xml" value="0.4" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_subuh.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_sunnah.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_wajib.xml" value="0.25" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_sholat_zuhur.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/fragment_home.xml" value="0.2237791932059448" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/fragment_puasa.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/fragment_quran.xml" value="0.13628135505559866" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/fragment_sholat.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/fragment_zakat.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_kajian.xml" value="0.20969202898550723" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_recycler_sholat.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_recycler_sholat_sunnah.xml" value="0.25" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_recyclerhomekajian.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_recyclerhud.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_recyclerpuasa.xml" value="0.4" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/item_sholat.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/layout/nav_header.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/ApkIslamiLomba/app/src/main/res/menu/navdrawer_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
